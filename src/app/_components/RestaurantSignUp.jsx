@@ -93,7 +93,7 @@ const RestaurantSignUp = () => {
         </form>
         <div className="text-sm mt-4 text-center text-gray-600">
           <span>Already have an account? </span>
-          <Link href="/login">
+          <Link href="/restaurant/login">
             <span className="text-indigo-600 hover:underline cursor-pointer">Login</span>
           </Link>
         </div>
