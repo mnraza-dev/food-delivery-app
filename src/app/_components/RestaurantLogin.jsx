@@ -17,7 +17,7 @@ const RestaurantLogin = () => {
             className="p-3 rounded-md border border-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-all"
           />
           <button
-            className="bg-indigo-600 p-3 rounded-md text-white font-semibold hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-all cursor-pointer"
+            className="bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 p-3 rounded-md text-white font-semibold shadow-lg hover:from-teal-500 hover:via-blue-600 hover:to-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition-all cursor-pointer"
             type="submit"
           >
             Login
