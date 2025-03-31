@@ -66,10 +66,9 @@ const RestaurantSignUp = () => {
         {/* Link to login page */}
         <div className="text-sm mt-4 text-center text-gray-600">
           <span>Already have an account? </span>
-          <Link href="/login">
-            <p className="text-indigo-600 hover:underline cursor-pointer">
+          <Link href="/login" className="text-indigo-600 hover:underline cursor-pointer">
               Login
-            </p>
+         
           </Link>
         </div>
       </div>
