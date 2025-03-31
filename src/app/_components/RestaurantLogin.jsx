@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Import Link from next/link
 
 const RestaurantLogin = () => {
   return (
@@ -25,9 +26,12 @@ const RestaurantLogin = () => {
         </form>
         <div className="text-sm mt-4 text-center text-gray-600">
           <span>Don't have an account? </span>
-          <a href="#" className="text-indigo-600 hover:underline cursor-pointer">
-            Sign up
-          </a>
+          {/* Use the Next.js Link component */}
+          <Link href="/signup">
+            <a className="text-indigo-600 hover:underline cursor-pointer">
+              Sign up
+            </a>
+          </Link>
         </div>
       </div>
     </div>
